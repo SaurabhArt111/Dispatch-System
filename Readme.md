@@ -385,7 +385,7 @@ GODOWN: S-28
 
 ## Example Screen
 
- 
+``` text
 ┌───────────────────────────────────────────────────────────────┐
 │ S-28                                      ● ONLINE            │
 │ GODOWN DISPATCH                         22 SEP 2026 04:45 PM  │
@@ -399,7 +399,7 @@ GODOWN: S-28
 │ DC-00985   DESIGN HOUSE       30 QTY      PACKED              │
 │                                                               │
 └───────────────────────────────────────────────────────────────┘
-
+```
 
 ------------------------------------------------------------------------
 
@@ -414,8 +414,9 @@ Top-right corner.
 
 ## Example
 
+``` text
                               ┌──────────────────────────────┐
-                              │ 🔔 NEW DELIVERY CHALLAN     │
+                              │ 🔔 NEW DELIVERY CHALLAN      │
                               │                              │
                               │ DC-2026-00982                │
                               │ ABC INTERIORS                │
@@ -425,6 +426,7 @@ Top-right corner.
                               │                              │
                               │ GODOWN: S-28                 │
                               └──────────────────────────────┘
+```
 
 ## Notification Behavior
 
@@ -494,11 +496,11 @@ Godown: S-28
 ├──────────────────────────────────────────────┤
 │                                              │
 │ Pending              08                      │
-│ Processing            04                      │
-│ Packing               03                      │
-│ Packed                06                      │
-│ Transfer              02                      │
-│ On Hold               01                      │
+│ Processing            04                     │
+│ Packing               03                     │
+│ Packed                06                     │
+│ Transfer              02                     │
+│ On Hold               01                     │
 │                                              │
 └──────────────────────────────────────────────┘
 ```
@@ -673,19 +675,19 @@ Main responsibilities:
 
 ``` text
 ┌──────────────────────────────────────────────────────────────┐
-│ DISPATCH OFFICE                                               │
+│ DISPATCH OFFICE                                              │
 ├──────────────────────────────────────────────────────────────┤
 │                                                              │
 │ PACKED           18                                          │
 │ QR GENERATED     15                                          │
-│ READY             12                                          │
-│ LOADED             7                                          │
-│ DISPATCHED        32                                          │
+│ READY             12                                         │
+│ LOADED             7                                         │
+│ DISPATCHED        32                                         │
 │                                                              │
 ├──────────────────────────────────────────────────────────────┤
 │ READY FOR DISPATCH                                           │
 │                                                              │
-│ DC        CUSTOMER          GODOWN     ROLLS      ACTION      │
+│ DC        CUSTOMER          GODOWN    ROLLS      ACTION      │
 │ 00982     ABC Interiors     S-28        3        OPEN        │
 │ 00983     XYZ Designs       S-17        2        OPEN        │
 │                                                              │
