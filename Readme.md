@@ -385,9 +385,9 @@ GODOWN: S-28
 
 ## Example Screen
 
-``` text
+ 
 ┌───────────────────────────────────────────────────────────────┐
-│ S-28                                      ● ONLINE             │
+│ S-28                                      ● ONLINE            │
 │ GODOWN DISPATCH                         22 SEP 2026 04:45 PM  │
 ├───────────────────────────────────────────────────────────────┤
 │                                                               │
@@ -399,7 +399,7 @@ GODOWN: S-28
 │ DC-00985   DESIGN HOUSE       30 QTY      PACKED              │
 │                                                               │
 └───────────────────────────────────────────────────────────────┘
-```
+
 
 ------------------------------------------------------------------------
 
@@ -414,19 +414,17 @@ Top-right corner.
 
 ## Example
 
-``` text
                               ┌──────────────────────────────┐
-                              │ 🔔 NEW DELIVERY CHALLAN      │
+                              │ 🔔 NEW DELIVERY CHALLAN     │
                               │                              │
                               │ DC-2026-00982                │
-                              │ ABC INTERIORS                 │
+                              │ ABC INTERIORS                │
                               │                              │
-                              │ BURL LAMINATE                 │
-                              │ QTY: 25                       │
+                              │ BURL LAMINATE                │
+                              │ QTY: 25                      │
                               │                              │
-                              │ GODOWN: S-28                  │
+                              │ GODOWN: S-28                 │
                               └──────────────────────────────┘
-```
 
 ## Notification Behavior
 
