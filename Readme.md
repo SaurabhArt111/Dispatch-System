@@ -2032,7 +2032,7 @@ This roll-level traceability is the core purpose of the Dispatch System.
                                       │
                                       ▼
                          ┌─────────────────────────┐
-                         │    DISPATCH BACKEND    │
+                         │    DISPATCH BACKEND     │
                          │                         │
                          │ Node.js + Express       │
                          │ Authentication          │
@@ -2059,7 +2059,7 @@ This roll-level traceability is the core purpose of the Dispatch System.
       └─────────────┘          └──────┬──────┘          └──────┬──────┘
                                       │                        │
                                       ▼                        ▼
-                                   PACKING                    QR
+                                   PACKING                     QR
                                       │                        │
                                       ▼                        ▼
                                     ROLLS                   SCANNING
