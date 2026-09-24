@@ -40,7 +40,7 @@ export function AuthProvider({ children }) {
     (async () => {
       try {
         const data = await authApi.refresh();
-        if (!cancelled) handleAuthenticated(data);
+        if (!cancelled && data) handleAuthenticated(data);
       } catch (e) {
         // no valid session, remain logged out
       } finally {

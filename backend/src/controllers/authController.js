@@ -67,7 +67,7 @@ const login = asyncHandler(async (req, res) => {
 
 const refresh = asyncHandler(async (req, res) => {
   const token = req.cookies?.refreshToken || req.body.refreshToken;
-  if (!token) throw new ApiError(401, 'No refresh token provided');
+  if (!token) return ok(res, null, 'No active session');
 
   let payload;
   try {
