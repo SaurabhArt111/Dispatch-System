@@ -1,0 +1,18 @@
+version: "3.8"
+
+# Convenience file: spins up a local MongoDB for development.
+# Run:  docker compose up -d
+# Then set MONGO_URI=mongodb://localhost:27017/dispatch_management in backend/.env
+
+services:
+  mongo:
+    image: mongo:7
+    container_name: dispatch-mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - dispatch_mongo_data:/data/db
+
+volumes:
+  dispatch_mongo_data:

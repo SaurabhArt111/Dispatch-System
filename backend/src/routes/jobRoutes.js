@@ -1,0 +1,1 @@
+import {Router} from "express";import {auth} from "../middleware/auth.js";import {updateJobStatus,createRolls} from "../controllers/jobController.js";const r=Router();r.use(auth);r.patch("/:id/status",updateJobStatus);r.post("/:id/rolls",createRolls);export default r;

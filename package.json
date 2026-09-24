@@ -1,0 +1,14 @@
+{
+  "name": "dispatch-management",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Dispatch Management System — Godowns, Packing, QR & Vehicle Dispatch, in real time.",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "seed": "npm run seed --prefix backend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "build:frontend": "npm run build --prefix frontend",
+    "start:backend": "npm start --prefix backend"
+  }
+}
